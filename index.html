@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusBoard</title>
+</head>
+<body>
+    <h1>FocusBoard</h1>
+    <h2>Your day</h2>
+    <h3>0 of 0 tasks completed</h3>
+    <label for="tname">Task Name:</label>
+    <input type="text" name="tname" id="tname" size="15" placeholder="e.g. Homework" required>
+
+    <label for="category">Choose a category</label>
+    <select name="category" id="category">
+
+    <option value="work">Work</option>
+    <option value="study">Study</option>
+    <option value="personal">Personal</option>
+    <option value="health">Health</option>
+
+    </select>
+
+    <label for="prio">Priority</label>
+    <select name="prio" id="prio">
+    
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="urgent">Urgent</option>
+
+    </select>
+
+    <button type="submit">Add task</button>
+
+    <div class="filter_group">
+
+        <button>All</button>
+        <button>Open</button>
+        <button>Done</button>
+
+    </div>
+
+</body>
+</html>
