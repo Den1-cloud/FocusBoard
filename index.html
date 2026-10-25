@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FocusBoard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+
     <h1>FocusBoard</h1>
     <h2>Your day</h2>
+    <div class="card">
     <h3>0 of 0 tasks completed</h3>
+    </div>
+    <form class="task-form">
+    <div class="form-field">
     <label for="tname">Task Name:</label>
     <input type="text" name="tname" id="tname" size="15" placeholder="e.g. Homework" required>
 
-    <label for="category">Choose a category</label>
+</div>
+<div class="form-field">
+    <label for="category">Category</label>
     <select name="category" id="category">
 
     <option value="work">Work</option>
@@ -21,25 +30,37 @@
     <option value="health">Health</option>
 
     </select>
+</div>
+<div class="form-field">
 
     <label for="prio">Priority</label>
     <select name="prio" id="prio">
-    
+
         <option value="low">Low</option>
         <option value="medium">Medium</option>
         <option value="urgent">Urgent</option>
 
     </select>
+</div>
 
     <button type="submit">Add task</button>
+    </form>
 
-    <div class="filter_group">
+<div class="filter_group">
 
-        <button>All</button>
+        <button class="active">All</button>     
         <button>Open</button>
         <button>Done</button>
 
     </div>
 
+<section class="task-list">
+
+        <h3>Your Tasks</h3>
+        <p>No tasks yet. Add your first task!</p>
+
+</section>
+
+</div>
 </body>
 </html>

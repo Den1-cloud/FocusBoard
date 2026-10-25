@@ -1,0 +1,88 @@
+body{
+    background-color:#F5F7FB;
+    font-family: sans-serif;
+    color:#1F2937;
+    
+}
+
+.card{
+   background-color: #FFFFFF;
+   border-radius: 16px;
+   padding: 24px;
+   border: 1px solid #E5E7EB;
+   margin-bottom: 24px;
+}
+
+h1{
+    color: #4F46E5;
+    font-size:medium;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+h2{
+    color: #4F46E5;
+    font-size: 32px;
+}
+h3{
+    color: #4F46E5;
+    font-size: 14px;
+}
+input, select{
+    border:1px solid #E5E7EB;
+    border-radius: 8px;
+    height: 44px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.container{
+max-width: 800px;
+margin: auto;
+padding: 24px;
+}
+label{
+    font-size: 14px;
+}
+
+.task-form{
+display:flex;
+gap: 12px;
+align-items:end;
+}
+
+.task-form button {
+    height: 44px;
+    background-color: #4F46E5;
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-field{
+    display: flex;
+    flex-direction:column;
+    gap: 8px;
+    flex-grow:1;
+}
+
+.filter_group{
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.filter_group button {
+    background-color: #FFFFFF;
+    border:1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 10px 16px;
+    color: #1F2937;
+    cursor: pointer;
+
+}
+
+.filter_group button.active {
+    background-color: #4F46E5;
+    color: aliceblue;
+}
