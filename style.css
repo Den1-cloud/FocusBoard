@@ -180,3 +180,7 @@ align-items:end;
 .task-name {
     flex-grow: 0;
 }
+
+.task-item[hidden] {
+    display: none;
+}
